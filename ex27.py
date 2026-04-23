@@ -1,7 +1,7 @@
 # 27
 h = float(input("Enter your height: "))
 w = float(input("Enter your weight: "))
-unit = input("Did you use (M)etric or (I)mperial units? ").lower()
+unit = input("Did you use (M)etric or (I)mperial units?: ").lower()
 
 if unit == 'i':
     bmi = (w / (h * h)) * 703
