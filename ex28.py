@@ -1,3 +1,4 @@
+# 28
 temp = float(input("Enter the air temperature in Celsius: "))
 wind = float(input("Enter the wind speed in km/h: "))
 
