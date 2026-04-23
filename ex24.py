@@ -1,0 +1,6 @@
+days = int(input())
+hours = int(input())
+minutes = int(input())
+seconds = int(input())
+
+print(days * 86400 + hours * 3600 + minutes * 60 + seconds)
