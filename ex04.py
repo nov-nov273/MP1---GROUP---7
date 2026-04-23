@@ -5,4 +5,4 @@ length = float(input("Input length: "))
 width = float(input("Input width: "))
 
 area = (length * width) / acre
-print(f"Area in acres: {area:,.2f}")
+print(f"Area in acres: {area:,.2f} acres")
