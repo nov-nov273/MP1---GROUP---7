@@ -3,7 +3,7 @@ feet = 0
 while feet <= 0:
     feet = float(input('Enter your number in feet: '))
     if feet <= 0:
-        print("Please enter a positive number for the height in feet.")
+        print("Please enter a positive number for the distance in feet.")
 
 inch = float(feet) * 12
 miles = float(feet) / 5280
