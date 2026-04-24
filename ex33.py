@@ -5,8 +5,8 @@ discount_rate = 0.60
 loaves = 0
 while loaves <= 0:
     loaves = int(input("Enter the number of day old loaves being purchased: "))
-if loaves <= 0:
-    print("Please enter a positive number.")
+    if loaves <= 0:
+        print("Please enter a positive number.")
 
 regular_price = loaves * price_per_loaf
 discount = regular_price * discount_rate
